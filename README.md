@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online 22 - B3 | Back-end | Semana X | 2023 | Professora X
+Turma Online 22 - B3 | Back-end | Semana 4 | 2023 | Professora Manuelly Suzik
 
 ### Instruções
 
@@ -50,10 +50,81 @@ O que veremos na aula de hoje?
 
 ## Estruturas de Repetição
 
-- while / do...while
-- for / for...in / for...of
-- break
-- continue
+`while`: o comando while é uma estrutura de repetição que executa um bloco de código enquanto uma determinada condição for verdadeira.
+
+```javascript
+let i = 0;
+
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+```
+
+`do...while`: o comando do...while é uma estrutura de repetição que executa um bloco de código pelo menos uma vez, e depois repete o bloco enquanto uma determinada condição for verdadeira.
+
+```javascript
+let i = 0;
+
+do {
+  console.log(i);
+  i++;
+} while (i < 5);
+```
+
+`for`: o comando for é uma estrutura de repetição que permite executar um bloco de código várias vezes, com uma sintaxe mais compacta que o while. Ele possui três partes: a inicialização de uma variável, a condição de repetição e a atualização da variável.
+
+```javascript
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+```
+
+`for...in`: o comando for...in é uma estrutura de repetição que permite percorrer as propriedades de um objeto em JavaScript. Ele itera sobre as chaves (nomes das propriedades) do objeto.
+
+```javascript
+const person = {
+  name: 'John',
+  age: 30,
+  city: 'New York',
+};
+
+for (let key in person) {
+  console.log(`${key}: ${person[key]}`);
+}
+```
+
+`for...of`: o comando for...of é uma estrutura de repetição introduzida no ECMAScript 6 que permite percorrer os valores de um objeto iterável, como um array.
+
+```javascript
+const colors = ['red', 'green', 'blue'];
+
+for (let color of colors) {
+  console.log(color);
+}
+```
+
+`break`: o comando break é utilizado dentro de uma estrutura de repetição para interromper o loop e sair do bloco de código.
+
+```javascript
+for (let i = 0; i < 5; i++) {
+  if (i === 3) {
+    break;
+  }
+  console.log(i);
+}
+```
+
+`continue`: o comando continue é utilizado dentro de uma estrutura de repetição para pular uma iteração do loop e continuar para a próxima iteração.
+
+```javascript
+for (let i = 0; i < 5; i++) {
+  if (i === 2) {
+    continue;
+  }
+  console.log(i);
+}
+```
 
 ## Arrays
 
