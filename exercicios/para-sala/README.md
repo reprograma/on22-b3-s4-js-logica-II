@@ -1,11 +1,16 @@
-# Exercício de Sala 🏫  
+# Exercício de Sala 🏫
 
 ## Nome do Exercicio
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
----
+**Exercício 1: Soma dos Números Ímpares**
+
+Escreva uma função que recebe um número inteiro positivo n como argumento e retorna a soma de todos os números ímpares de 1 a n. Use uma estrutura de repetição para iterar sobre os números
+
+**Exercício 2: Fatorial**
+
+Escreva uma função que recebe um número inteiro positivo n como argumento e retorna o fatorial desse número. Use uma estrutura de repetição para calcular o resultado.
+
+O fatorial de um número é o produto de todos os números inteiros positivos menores ou iguais a ele.
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
