@@ -149,43 +149,6 @@ Outra dica é que você pode criar métodos dentro da classe utilizando a sintax
 
 Por fim, lembre-se de que é possível criar uma instância da classe utilizando a sintaxe: `new NomeDaClasse(parametrosDoConstrutor).`
 
-**Exercício 2:**
-
-Instruções:
-
-- Crie uma classe chamada `Animal`.
-- A classe deve ter uma propriedade chamada `nome`.
-- Crie uma classe chamada Cachorro que **herda** da classe - Animal.
-- A classe `Cachorro` deve ter um método chamado `latir()`, que imprime no console a mensagem "Au au!".
-
-  _Crie um objeto da classe Cachorro e chame o método latir._
-
-**Dica:** Utilize a palavra-chave extends para indicar que a classe Cachorro herda da classe Animal
-
-```javascript
-class Produto {
-  constructor(nome, preco) {
-    this.nome = nome;
-    this.preco = preco;
-  }
-}
-
-class Livro extends Produto {
-  constructor(nome, preco, autor) {
-    super(nome, preco);
-    this.autor = autor;
-  }
-
-  detalhes() {
-    console.log(
-      `Título: ${this.nome}\nAutor: ${
-        this.autor
-      }\nPreço: R$${this.preco.toFixed(2)}`
-    );
-  }
-}
-```
-
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
