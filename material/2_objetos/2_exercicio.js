@@ -12,4 +12,7 @@ let calculadora = {
     },
 }
 
-console.log(calculadora(subtracao))
+console.log(calculadora.soma(5, 2))
+console.log(calculadora.soma(5, -5));
+console.log(calculadora.subtracao(5, 2))
+console.log(calculadora.subtracao(-2, 2));
