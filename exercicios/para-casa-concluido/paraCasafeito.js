@@ -1,4 +1,4 @@
-// Exercicio 1 
+// Atividade  1 
 
 const numeros = [9, 18, 27, 36, 45];
 
@@ -6,28 +6,28 @@ for (let i = 0; i < numeros.length; i++) {
   console.log(numeros[i]);
 }
 
-// Exercicio 2 
+// Atividade 2 
 
 const animal = {
-    nome: "Danka",
-    cor: "Branca",
+    nome: "King",
+    cor: "Marron",
     idade: 2,
-    nomeDono: "Luana"
+    nomeDono: "Gracielle"
   };
 
   for (let propriedade in animal) {
     console.log(propriedade + ": " + animal[propriedade]);
   }
 
-  // Exercicio 3
+  // Atividade 3
 
-const frutas = ["maçã", "banana", "laranja", "manga", "uva"];
+const frutas = ["banana", "mexirica", "laranja", "maça", "uva"];
 
 for (let fruta of frutas) {
   console.log(fruta);
 } 
 
-// Exercicio 4 
+// Atividade 4 
 
 const numeros = [2, 4, 6, 8, 10];
 let i = 0;
@@ -37,7 +37,7 @@ while (i < numeros.length) {
   i++;
 }
 
-// Exercicio 5 
+// Atividade 5 
 
 let numero;
 
@@ -49,5 +49,4 @@ do {
   } else {
     console.log("O número é ímpar");
   }
-} while (isNaN(numero)); 
-
+} while (isNaN(numero));
