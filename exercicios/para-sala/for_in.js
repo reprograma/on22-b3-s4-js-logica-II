@@ -11,7 +11,6 @@ for (let propriedade in pessoa) {
     }
 }
 
-
 let pessoaComEndereco = {
     name:"Manuelly Suzik",
     endereco:{
