@@ -11,3 +11,17 @@ Instruções:
 
   _Crie um objeto da classe Pessoa e chame o método falar._*/
 
+  class Pessoa{
+    constructor(nome,idade){
+        this.nome = nome;
+        this.idade = idade;
+
+    }
+    falar(){
+        console.log(`Olá, meu nome é ${this.nome} e eu tenho ${this.idade} anos`)
+    }
+}
+
+const pessoa = new Pessoa( "Sarah Bernardino ", 24)
+pessoa.falar()
+
