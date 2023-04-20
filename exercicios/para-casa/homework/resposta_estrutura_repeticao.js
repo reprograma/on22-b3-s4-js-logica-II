@@ -13,6 +13,7 @@ for(let i = 0;i < listaDeNumeros.length;i++){
 
     console.log(listaDeNumeros[i])
 }
+
 console.log("continua...")
 
 /*
@@ -33,7 +34,7 @@ da propriedade, utilize a sintaxe objeto[propriedade]._
 console.log("dividindo para conquistar.")
 
 let animal = {
-    ser:"tartaruga",
+    propiedade:"tartaruga",
     descrição:{
     nome:"orus",
     cor:"verde com uma marca vermelha",
@@ -57,7 +58,7 @@ Dica: Utilize a sintaxe for (variavel of array) para percorrer o array. A variá
 valor de cada elemento do array a cada iteração do loop.*/
 console.log("se desafie e faça o seu melhor")
 
-const listaDeCompra = ["sapatilha de lona número 31.","meião fio 30.","tecido suplex para confecção de bodie e saia godê.","comprar três pares de meia preta de algodão.","comprar laço."]
+const listaDeCompra = ["meia","sandalia","roupa","laço","sapato"]
 
 for (let item of listaDeCompra){
     
@@ -77,14 +78,12 @@ console.log("mais uma vez aqui.")
 let i = 0;
 const number = [23, 57, 68, 75, 94]
 while(i < number.length){
-    console.log(number[4]);
-    console.log(number[3]);
-    console.log(number[0]); 
-    console.log(number[1]);  
-    console.log(number[2]);
+    
+    console.log(number[i]);
     i++;
 }
-console.log("tentei, mas repete duas vezes. Meu Deus o que será? depois eu volto." )
+console.log("voltei... deu certo." )
+
 /* **Exercício 5:**
 
 Instruções:Crie um `do while` que peça para o usuário digitar um número.Se o número digitado for par, imprima
@@ -108,3 +107,4 @@ do {
 } while (i < num.length);
 
 console.log("seja o que for.")*/
+
