@@ -25,7 +25,7 @@ numeros.forEach((numero) => {
 })
 
 // slice
-const newArr = numeros.slice(2, 6);
+const newArr = numeros.slice(1, 5);
 console.log(newArr);
 
 // filter
