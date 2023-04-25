@@ -33,3 +33,4 @@ nomes.forEach((nome, index)=>{
     console.log(nome + nomes[index + 1])
 })
 
+
