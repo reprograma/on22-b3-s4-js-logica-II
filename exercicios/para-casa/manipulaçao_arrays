@@ -1,0 +1,47 @@
+
+const numeros = [10, 23, 45, 67, 89, 12, 34, 56, 78, 90 ];
+const push = numeros.push( 100, 200)
+const shift = numeros.shift()
+const unshfit = numeros.unshift(5)
+let sliced = numeros.slice(2, 6)
+const filtro = numeros.filter((numero) => {
+    return numero > 50;
+
+})
+//console.log(filtro);
+
+const acharPar = numeros.find((par) =>{
+    return par % 2 === 0;
+});
+
+//console.log(acharPar)
+
+/**numeros.forEach((elemento) =>{
+    console.log(elemento);
+})
+*/
+
+//console.log(sliced)
+
+const mapearNumeros = numeros.map((valor) =>{
+    return valor * 2;
+});
+
+console.log(mapearNumeros);
+
+
+/* Desafio extra - Use os métodos encadeados para remover o último elemento do array, em seguida,
+ filtrar os números pares e, por fim, criar um novo array com os números pares multiplicados por 2.
+  Imprima o novo array no console. */
+
+const numeros2 = [135, 213, 95, 4, 786, 84, 71, 13, 291]
+const pop = numeros2.pop();
+const Par = numeros2.filter((par) =>{
+    return par % 2 === 0;
+});
+const multiplicadoPor2 = numeros2.map((valor) => {
+    return valor * 2;
+})  
+
+console.log(multiplicadoPor2)
+
