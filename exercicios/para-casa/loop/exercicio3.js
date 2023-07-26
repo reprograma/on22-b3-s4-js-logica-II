@@ -1,7 +1,5 @@
-// Crie um array com 5 strings. Em seguida `for...of` que imprima cada string do array no console.
+const listaDeFrases= ["Antes tarde do que mais tarde!","Faça essa por nós!","Vai dar certo, mesmo dando errado!","Um passo de cada vez!","Desistir não é uma opção!"]
 
-const listaDeObjetos = ["Cadeira","Mesa","Copo","Computador","Fone de Ouvido"]
-
-for(objeto of listaDeObjetos){
-    console.log(objeto)
-}
+for(Frases of listaDeFrases){
+    console.log(Frases)
+} 

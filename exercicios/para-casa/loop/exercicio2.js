@@ -7,11 +7,11 @@
 Crie um `for...in` que imprima cada propriedade e valor do objeto no console.*/
 
 const animal = {
-    nome:"Theo",
-    cor:"Branco",
-    nome_dono:"Manuelly & Gabriela"
+    nome:"Jeová",
+    cor:"amarelo e branco",
+    nome_dono:"Beatriz"
 }
 
-for(propriedade in animal){
-    console.log(`${propriedade}:${animal[propriedade]}`)
-}
+for(dono in animal){
+    console.log(`${dono}:${animal[dono]}`)
+} 
