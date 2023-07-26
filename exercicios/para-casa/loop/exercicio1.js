@@ -1,6 +1,6 @@
-// Crie um array com 5 números. Em seguida crie um `for` que imprima cada número do array no console.
-const listaDeNumeros = [78,56,12,45,98]
+const array = [10,25,31,48,51];
 
-for(let i = 0;i < listaDeNumeros.length;i++){
-    console.log(listaDeNumeros[i])
-}
+for(let i =  0;i  <  array.length ;  i ++){
+    console.log(array [i]);np
+  }
+  
